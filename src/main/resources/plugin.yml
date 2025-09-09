@@ -1,0 +1,13 @@
+name: LapisBots
+version: 1.0
+main: me.vadim.lapisbots.LapisBots
+api-version: 1.16
+commands:
+  lapisbots:
+    description: Перезагрузить конфигурацию ботов
+    usage: /lapisbots reload
+    permission: lapisbots.reload
+permissions:
+  lapisbots.reload:
+    description: Позволяет перезагружать конфигурацию
+    default: op
